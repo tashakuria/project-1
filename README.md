@@ -1,18 +1,26 @@
-# Indie Mood Board 
+# Indie Mood Board
+---
+A one-page playlist web app where
+---
 
-A dreamy, one-page indie playlist web app where users can:
-- Browse songs by mood
-- Like their favorites
-- Add new tracks to the vibe board
+Built with:
+- HTML/CSS
+- JavaScript (fetch, DOM interaction)
+- JSON Server 
+  
+---
 
-Built using:
-- HTML/CSS (pastel and floating aesthetic)
-- JavaScript (vanilla)
-- JSON Server for persistent data
-
-No login required. Just vibes.
-Run it locally with `json-server --watch db.json`
+## Features
+Users can:
+- Browse songs filtered by mood
+- Add their own songs to the board
+- Like their favorites (with like counts stored)
+- Use a mock **Log In** form — 
 
 ---
 
+## 🛠 Installation & Usage
+
+Run it locally with `json-server --watch db.json`
+---
 © Tasha 2025. All feels reserved 

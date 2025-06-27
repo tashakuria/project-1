@@ -25,14 +25,19 @@ loadSongs();
 
 
 function loadSongs() {
-fetch(API_URL)
+fetch("http://localhost:3000/songs")
 .then(res => res.json())
 .then(data => {
 songList.innerHTML = '';
-data.forEach(renderSong);
+data.forEach(song => renderSong(song));
 });
 }
 
+document.getElementById("enter-btn").addEventListener("click", () => {
+document.getElementById("landing").style.display = "none";
+document.getElementById("main").style.display = "block";
+loadSongs(); 
+});
 
 function renderSong(song) {
 const card = document.createElement('div');

@@ -1,0 +1,52 @@
+{
+  "songs": [
+    {
+      "id": "1",
+      "title": "Flaming Hot Cheetos",
+      "artist": "Clairo",
+      "mood": "chill",
+      "image": "https://i.pinimg.com/736x/18/ec/e1/18ece13aeb2f90094af8ce70aa771d50.jpg",
+      "likes": 3
+    },
+    {
+      "id": "2",
+      "title": "Scott Screet",
+      "artist": "Phoebe Bridgers",
+      "mood": "sad",
+      "image": "https://i.pinimg.com/736x/f0/95/79/f095799cfc8b63b02ee1068dcf0f5f8b.jpg",
+      "likes": 5
+    },
+    {
+      "id": "3",
+      "title": "IFluorescent Adolescent",
+      "artist": "Arctic Monkeys",
+      "mood": "hype",
+      "image": "https://i.pinimg.com/736x/64/94/42/649442ea704b21e00e8a7cae5ea8227d.jpg",
+      "likes": 3
+    },
+    {
+      "id": "4",
+      "title": "Apple Cider",
+      "artist": "Beabadobee",
+      "mood": "hype",
+      "image": "https://i.pinimg.com/736x/43/b0/3b/43b03b05fe6aacf06c3200fecff1e16c.jpg",
+      "likes": 4
+    },
+    {
+      "id": "5",
+      "title": "Yes To Heaven",
+      "artist": "Lana Del Rey",
+      "mood": "sad",
+      "image": "https://i.pinimg.com/736x/e9/72/a0/e972a0df39d5520e3414da0af185fb43.jpg",
+      "likes": 2
+    },
+    {
+      "id": "27f1",
+      "title": "Someone New",
+      "artist": "Hozier",
+      "mood": "chill",
+      "image": "https://i.pinimg.com/736x/74/70/22/747022cf5eeff72c765aac8abf645b4b.jpg",
+      "likes": 5
+    }
+  ]
+}

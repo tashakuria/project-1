@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Indie Mood Board</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+<nav>
+<div class="logo">IndieMood 🎧</div>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Explore</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Log In</a></li>
+</ul>
+</nav>
+
+<section id="about" class="about-section">
+<h2>About Indie Mood Board</h2>
+<p>
+Indie Mood Board is a soft space built with heart — a playlist app where you don't just listen, you feel.
+Whether you're floating in sad hours, vibing in pastel peace, or just discovering new artists,
+this board grows with your mood. Add songs, filter by vibe, and keep your soul fed.
+</p>
+<p>
+Made with HTML, CSS, and JavaScript, backed by a simple local database using JSON Server.
+It's indie-coded, pastel-powered.
+</p>
+</section>
+
+<section id="login" class="login-section">
+<h2>Log In</h2>
+<form id="login-form">
+<input type="email" placeholder="Email" required />
+<input type="password" placeholder="Password" required />
+<button type="submit">Log In</button>
+<p id="login-msg" class="login-msg"></p>
+</form>
+</section>
+
+<section id="landing" class="grid-container">
+<div class="landing-text">
+<h1>Create a Moodboard Without Limits</h1>
+<p>Bring your music taste to life. Filter by vibe, like your favorites, and add new songs that speak to your soul.</p>
+<button id="enter-btn">Get Started</button>
+</div>
+
+<div class="floating-images">
+<img src="https://i.pinimg.com/736x/89/ca/51/89ca512d44e881b3bd560e6fae6c5651.jpg" alt="vibe1">
+</div>
+</section>
+
+<div id="app" class="hidden">
+<header>
+<h2>My Indie Mood Board </h2>
+<select id="mood-filter">
+<option value="all">All Moods</option>
+<option value="sad">Sad</option>
+<option value="chill">Chill</option>
+<option value="hype">Hype</option>
+</select>
+</header>
+
+<main id="song-list"></main>
+
+<section class="form-section">
+<h3>Add a Song to the Moodboard</h3>
+<form id="add-song-form">
+<input type="text" name="title" placeholder="Song Title" required />
+<input type="text" name="artist" placeholder="Artist" required />
+<select name="mood" required>
+<option value="">Select Mood</option>
+<option value="sad">Sad</option>
+<option value="chill">Chill</option>
+<option value="hype">Hype</option>
+</select>
+<input type="url" name="image" placeholder="Image URL (optional)" />
+<button type="submit">Add Song</button>
+</form>
+</section>
+
+<footer>
+<p>Made by Tasha 🌙 | Soft playlists.</p>
+<p>Contact Us 0109287674</p>
+</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

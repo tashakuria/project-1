@@ -3,7 +3,7 @@
 A one-page playlist web app
 
 ---
-
+## Overview
 Built with:
 - HTML/CSS
 - JavaScript (fetch, DOM interaction)
@@ -20,7 +20,7 @@ Users can:
 
 ---
 
-## 🛠 Installation & Usage
+##  Installation & Usage
 
 Run it locally with `json-server --watch db.json`
 ---

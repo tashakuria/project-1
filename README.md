@@ -1,6 +1,7 @@
 # Indie Mood Board
 ---
-A one-page playlist web app where
+A one-page playlist web app
+
 ---
 
 Built with:
